@@ -1,0 +1,23 @@
+<h1>now this one has to work</h1>
+<p>now is <%= Time.now%></p>
+
+
+<h2>meet me</h2>
+<ol>
+  <% @names.each do |name| %>
+    <li><%= name.capitalize%></li>
+  <% end %>
+</ol>
+
+<a href="www.google.com">search</a>
+<%= link_to "straight to about", about_path%>
+
+<form action="/contact" method="get">
+  <label for="name">whom are you looking for ?</label>
+  <input type="text"
+  id="name"
+  name="name"
+  value="<%= params[:name] %>"
+  placeholder="put name">
+  <input type="submit" value="search">
+</form>
