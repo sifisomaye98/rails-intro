@@ -9,3 +9,11 @@
   <%= f.number_field :rating %>
   <%= f.submit %>
 <% end %>
+
+<%= simple_form_for(restaurant) do |f| %>
+  <%= f.input :name %>
+  <%= f.input :address %>
+  <%= f.input :rating %>
+  <%= f.input :rating %>
+  <%= f.submit %>
+<% end %>
