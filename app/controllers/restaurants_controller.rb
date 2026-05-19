@@ -36,6 +36,10 @@ class RestaurantsController < ApplicationController
     redirect_to restaurant_path, status: :see_other
   end
 
+  def top
+    @restaurants = Restaurant.where(rating: 5)
+  end
+
   private
 
   def restaurant_params

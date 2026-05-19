@@ -18,52 +18,62 @@ restaurants = [
   {
     name: "Ocean Breeze Grill",
     address: "12 Beach Road, Cape Town",
-    category: "seafood"
+    category: "seafood",
+    rating: 1
   },
   {
     name: "Mama Mia Pizzeria",
     address: "45 Long Street, Cape Town",
-    category: "italian"
+    category: "italian",
+    rating: 2
   },
   {
     name: "Golden Dragon",
     address: "88 Main Road, Johannesburg",
-    category: "chinese"
+    category: "chinese",
+    rating: 3
   },
   {
     name: "Spice Route",
     address: "23 Victoria Street, Durban",
-    category: "indian"
+    category: "indian",
+    rating: 4
   },
   {
     name: "Burger Haven",
     address: "101 Market Avenue, Pretoria",
-    category: "american"
+    category: "american",
+    rating: 5
   },
   {
     name: "Sakura Sushi",
     address: "9 River Lane, Cape Town",
-    category: "japanese"
+    category: "japanese",
+    rating: 1
   },
   {
     name: "Le Petit Cafe",
     address: "17 Church Square, Stellenbosch",
-    category: "french"
+    category: "french",
+    rating: 2
   },
   {
     name: "Taco Fiesta",
     address: "56 Palm Street, Port Elizabeth",
-    category: "mexican"
+    category: "mexican",
+    rating: 3
   },
   {
     name: "Green Garden Vegan",
     address: "73 Forest Drive, Cape Town",
-    category: "vegan"
+    category: "vegan",
+    rating: 4
   },
   {
     name: "Braai House",
     address: "200 Freedom Blvd, Johannesburg",
-    category: "south african"
+    category: "south african",
+    rating: 5
   }
 ]
 
